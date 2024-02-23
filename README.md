@@ -3,14 +3,15 @@ Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan
 
 ## Penggunaan Login Akses
 
-Admin Perpus
-Username : admin
-Password :
-
-Petugas Perpus
-Username : petugas
-Password :
-
-Peminjam Perpus
-Username : peminjam
+Admin Perpus 
+Username : admin 
 Password : 
+ 
+Petugas Perpus 
+Username : petugas 
+Password : 
+ 
+Peminjam Perpus 
+Username : peminjam 
+Password :  
+ 
