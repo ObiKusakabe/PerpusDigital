@@ -27,23 +27,18 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Peminjam Perpus                          
   Username : peminjam                            
   Password : 123                             
+             
+                
+## Cara Instalasi dan User Manual Book
 
-                              
 ## Dibuat Menggunakan
 
 List semua add-ons/plugins/framework/librari used to bootstrap your project.
           
 * [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * [FontAwesome](https://fontawesome.com/icons)
+* [Start Bootstrap - SB Admin v7.0.7](https://startbootstrap.com/template/sb-admin)
 
-## Cara Instalasi dan User Manual Book
-
-
-## Acknowledgments
-
-List sumber daya yang menurut Saya berguna dan sangat dihargai.
-
-* [Font Awesome](https://fontawesome.com)
-
+                 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
