@@ -3,19 +3,19 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Perpus Digital v1.0
+# Perpus Digital v1.0
 
 Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
 
                           
-### Kembangkan Lagi!
+## Kembangkan Lagi!
 Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitur yang dapat ditambahkan dari saran Author:         
 * Denda
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
 
                              
-### Penggunaan Login Akses
+## Penggunaan Login Akses
             
 * Admin Perpus              
   Username : admin                
@@ -30,7 +30,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
   Password  : 123                             
 
                               
-### Dibuat Menggunakan
+## Dibuat Menggunakan
 
 List any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section.
 
@@ -40,7 +40,7 @@ List any major frameworks/libraries used to bootstrap your project. Leave any ad
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Cara Instalasi dan User Manual Book
+## Cara Instalasi dan User Manual Book
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
