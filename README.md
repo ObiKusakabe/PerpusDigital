@@ -2,7 +2,6 @@
 <a name="readme-top"></a>
 
 
-<!-- ABOUT THE PROJECT -->
 # Perpus Digital v1.0
 
 Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
@@ -19,33 +18,28 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
             
 * Admin Perpus              
   Username : admin                
-  Password  :          
+  Password :          
      
 * Petugas Perpus                   
   Username : petugas           
-  Password  :                
+  Password :                
          
 * Peminjam Perpus                          
   Username : peminjam                            
-  Password  : 123                             
+  Password : 123                             
 
                               
 ## Dibuat Menggunakan
 
-List any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section.
-
+List semua add-ons/plugins/framework/librari used to bootstrap your project.
+          
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [[Bootstrap v5.2][https://getbootstrap.com/docs/5.2/getting-started/introduction/]]
 * [FontAwesome v6.3.0][https://fontawesome.com/icons]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Cara Instalasi dan User Manual Book
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 List sumber daya yang menurut Saya berguna dan sangat dihargai.
