@@ -44,18 +44,18 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 
 ### Penggunaan Login Akses
             
-* Admin Perpus
-  Username : admin     
-  Password :     
+* Admin Perpus              
+  Username : admin                
+  Password :          
      
        
 * Petugas Perpus
-  Username : petugas
-  Password :      
+  Username : petugas           
+  Password :                
          
-* Peminjam Perpus
-* Username : peminjam
-* Password : 123    
+* Peminjam Perpus             
+* Username : peminjam               
+* Password : 123                    
 
 ### Dibuat Menggunakan
 
