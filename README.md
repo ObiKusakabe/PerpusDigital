@@ -31,6 +31,8 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
                 
 ## Cara Instalasi dan User Manual Book
 
+* [USER MANUAL BOOK](https://github.com/ObiKusakabe/PerpusDigital/blob/main/USER%20MANUAL%20BOOK.pdf)
+
 ## Dibuat Menggunakan
 
 List semua add-ons/plugins/framework/library yang digunakan untuk proyek ini.
