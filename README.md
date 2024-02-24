@@ -54,8 +54,8 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
   Password :                
          
 * Peminjam Perpus                          
-* Username : peminjam                            
-* Password : 123                             
+  Username : peminjam                            
+  Password : 123                             
                              
 ### Dibuat Menggunakan
 
