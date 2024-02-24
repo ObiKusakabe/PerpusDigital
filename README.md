@@ -5,7 +5,7 @@
 # Perpus Digital v1.0
 
 Aplikasi Perpustakaan sederhana
-berbasis website web dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
+berbasis website web yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
 
                           
 ## Kembangkan Lagi!
@@ -13,6 +13,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Denda
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
+* Pencarian Buku (Search)
 
                              
 ## Penggunaan Login Akses
