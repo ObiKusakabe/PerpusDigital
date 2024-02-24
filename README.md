@@ -38,17 +38,9 @@ Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan
 
 ### Kembangkan Lagi!
 Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitur yang dapat ditambahkan dari saran Author:         
-*Admin Perpus         
-Username : admin     
-Password :       
-       
-*Petugas Perpus        
-Username : petugas         
-Password :        
-         
-*Peminjam Perpus      
-Username : peminjam        
-Password :          
+* Denda
+* Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
+* Bookmark
 
 ### Penggunaan Login Akses
             
