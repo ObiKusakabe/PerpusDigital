@@ -41,7 +41,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Perpus Digital v1.0
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
