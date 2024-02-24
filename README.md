@@ -4,7 +4,8 @@
 
 # Perpus Digital v1.0
 
-Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
+Aplikasi Perpustakaan sederhana
+berbasis website web dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
 
                           
 ## Kembangkan Lagi!
