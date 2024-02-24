@@ -33,7 +33,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 
 ## Dibuat Menggunakan
 
-List semua add-ons/plugins/framework/librari used to bootstrap your project.
+List semua add-ons/plugins/framework/library yang digunakan untuk proyek ini.
           
 * [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * [FontAwesome](https://fontawesome.com/icons)
