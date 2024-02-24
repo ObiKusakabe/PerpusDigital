@@ -7,19 +7,20 @@
 
 Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
 
+                          
 ### Kembangkan Lagi!
 Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitur yang dapat ditambahkan dari saran Author:         
 * Denda
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
-                      
+
+                             
 ### Penggunaan Login Akses
             
 * Admin Perpus              
   Username : admin                
   Password  :          
      
-       
 * Petugas Perpus                   
   Username : petugas           
   Password  :                
@@ -27,10 +28,11 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Peminjam Perpus                          
   Username : peminjam                            
   Password  : 123                             
-                             
+
+                              
 ### Dibuat Menggunakan
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+List any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section.
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
