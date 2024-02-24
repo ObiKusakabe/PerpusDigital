@@ -33,9 +33,8 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 
 List semua add-ons/plugins/framework/librari used to bootstrap your project.
           
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [[Bootstrap v5.2][https://getbootstrap.com/docs/5.2/getting-started/introduction/]]
-* [FontAwesome v6.3.0][https://fontawesome.com/icons]
+* [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+* [FontAwesome](https://fontawesome.com/icons)
 
 ## Cara Instalasi dan User Manual Book
 
