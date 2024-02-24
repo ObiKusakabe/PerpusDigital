@@ -38,6 +38,10 @@ List semua add-ons/plugins/framework/library yang digunakan untuk proyek ini.
 * [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * [FontAwesome](https://fontawesome.com/icons)
 * [Start Bootstrap - SB Admin v7.0.7](https://startbootstrap.com/template/sb-admin)
+* [Chart.js](https://www.chartjs.org/docs/latest/samples/animations/drop.html)
+* [DataTables](https://datatables.net/)
+* [AOS Animate On Scroll Library](https://michalsnik.github.io/aos/)
+* [Swiffy Slider](https://swiffyslider.com/)
 
                  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
