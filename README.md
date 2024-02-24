@@ -43,9 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Perpus Digital v1.0
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Sistem Informasi Perpustakaan Berbasis Web merupakan sistem yang dapat digunakan untuk mengelola berbagai aktifitas di perpustakaan, mulai dari penyimpanan data buku hingga proses peminjaman.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
