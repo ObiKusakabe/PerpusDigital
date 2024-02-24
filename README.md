@@ -35,7 +35,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 List any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section.
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [Bootstrap v5.2][https://getbootstrap.com/docs/5.2/getting-started/introduction/]
+* [[Bootstrap v5.2][https://getbootstrap.com/docs/5.2/getting-started/introduction/]]
 * [FontAwesome v6.3.0][https://fontawesome.com/icons]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -45,38 +45,10 @@ List any major frameworks/libraries used to bootstrap your project. Leave any ad
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-List sumber daya yang menurut Saya berguna dan sangat hargai.
+List sumber daya yang menurut Saya berguna dan sangat dihargai.
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
