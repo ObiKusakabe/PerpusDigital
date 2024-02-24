@@ -41,7 +41,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Denda
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
-
+                      
 ### Penggunaan Login Akses
             
 * Admin Perpus              
@@ -49,14 +49,14 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
   Password :          
      
        
-* Petugas Perpus
+* Petugas Perpus                   
   Username : petugas           
   Password :                
          
-* Peminjam Perpus             
-* Username : peminjam               
-* Password : 123                    
-
+* Peminjam Perpus                          
+* Username : peminjam                            
+* Password : 123                             
+                             
 ### Dibuat Menggunakan
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
