@@ -44,19 +44,20 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 
 ### Penggunaan Login Akses
             
-Admin Perpus         
-Username : admin     
-Password :       
+* Admin Perpus
+  Username : admin     
+  Password :     
+     
        
-Petugas Perpus        
-Username : petugas         
-Password :        
+* Petugas Perpus
+  Username : petugas
+  Password :      
          
-Peminjam Perpus      
-Username : peminjam        
-Password : 123  
+* Peminjam Perpus
+* Username : peminjam
+* Password : 123    
 
-### Built With
+### Dibuat Menggunakan
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -120,22 +121,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -152,16 +137,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
