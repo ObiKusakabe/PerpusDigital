@@ -46,16 +46,16 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
             
 * Admin Perpus              
   Username : admin                
-  Password :          
+  Password  :          
      
        
 * Petugas Perpus                   
   Username : petugas           
-  Password :                
+  Password  :                
          
 * Peminjam Perpus                          
   Username : peminjam                            
-  Password : 123                             
+  Password  : 123                             
                              
 ### Dibuat Menggunakan
 
