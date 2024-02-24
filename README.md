@@ -34,14 +34,9 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 
 List any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Bootstrap v5.2][https://getbootstrap.com/docs/5.2/getting-started/introduction/]
+* [FontAwesome v6.3.0][https://fontawesome.com/icons]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
