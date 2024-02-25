@@ -14,6 +14,7 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
 * Pencarian Buku (Search)
+* Modal
 
                              
 ## Penggunaan Login Akses
