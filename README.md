@@ -14,18 +14,18 @@ Website ini dapat di kembangkan menjadi lebih kaya akan fitur lagi. Berikut fitu
 * Filter Detail Peminjaman (Menampilkan data peminjaman dari tanggal tertentu hingga tanggal tertentu di Detail Peminjaman)
 * Bookmark
 * Pencarian Buku (Search)
-* Modal
+* Modal alert popup 
 
                              
 ## Penggunaan Login Akses
             
 * Admin Perpus              
   Username : admin                
-  Password :          
+  Password : 123         
      
 * Petugas Perpus                   
   Username : petugas           
-  Password :                
+  Password : 123               
          
 * Peminjam Perpus                          
   Username : peminjam                            
