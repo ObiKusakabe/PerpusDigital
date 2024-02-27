@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Feb 27, 2024 at 03:22 PM
--- Server version: 10.5.20-MariaDB
--- PHP Version: 7.3.33
+-- Host: 127.0.0.1
+-- Generation Time: Feb 27, 2024 at 04:44 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -159,12 +159,12 @@ CREATE TABLE `t_user` (
 --
 
 INSERT INTO `t_user` (`userID`, `username`, `password`, `email`, `telp`, `namaLengkap`, `alamat`, `level`, `tgl_akun_dibuat`) VALUES
-(1, 'admin', '0394451600f4d914d71e273469452e73', 'pyrexpairz321@gmail.com', '089506495890', 'Roby Rachmat Firdaus', 'Kab. Bandung Barat, Batujajar, Jl. Sukawargi, RT 3 RW 8 No.80', 'admin', '2024-01-20'),
+(1, 'admin', '202cb962ac59075b964b07152d234b70', 'pyrexpairz321@gmail.com', '089506495890', 'Roby Rachmat Firdaus', 'Kab. Bandung Barat, Batujajar, Jl. Sukawargi, RT 3 RW 8 No.80', 'admin', '2024-01-20'),
 (3, 'peminjam', '202cb962ac59075b964b07152d234b70', 'ayonima@gmail.com', '089544442222', 'Abdul Kasir', 'Kab. Bandung Barat, Kec. Cipeundeuy, Jl. Simpang 3 Garuda No. 03 RT 1 RW 2 Desa Sirnaraja', 'peminjam', '2024-02-16'),
 (4, 'robyrf', '202cb962ac59075b964b07152d234b70', 'sayayamabuki04@gmail.com', '089506493333', 'Roby Rachmat Firdaus', 'Jawa Barat, Kab. Bandung Barat, Batujajar, Jl. Sukawargi, RT 3 RW 8 No.80', 'peminjam', '2024-02-21'),
 (5, 'ahmad', '202cb962ac59075b964b07152d234b70', 'ahmadkasir@gmail.com', '089476352745', 'Ahmad Kasir', 'Jl. Raya Batujajar G3 No.07 timur', 'peminjam', '2024-02-21'),
 (6, 'insan', '202cb962ac59075b964b07152d234b70', 'iluvcat@gmail.com', '086544553366', 'Muhammad Insan Putra', 'Jl. Ciseupan', 'peminjam', '2024-02-22'),
-(7, 'petugas', '0394451600f4d914d71e273469452e73', 'petugas@gmail.com', '086655889944', 'Zackar Amri', 'Jl. Penuh Rintangan', 'petugas', '2024-02-22');
+(7, 'petugas', '202cb962ac59075b964b07152d234b70', 'petugas@gmail.com', '086655889944', 'Zackar Amri', 'Jl. Penuh Rintangan', 'petugas', '2024-02-22');
 
 --
 -- Indexes for dumped tables
@@ -256,7 +256,6 @@ ALTER TABLE `t_buku`
 ALTER TABLE `t_peminjaman`
   ADD CONSTRAINT `fk_bukuID_t_peminjaman` FOREIGN KEY (`bukuID`) REFERENCES `t_buku` (`bukuID`) ON DELETE CASCADE,
   ADD CONSTRAINT `fk_userID_t_peminjaman` FOREIGN KEY (`userID`) REFERENCES `t_user` (`userID`) ON DELETE CASCADE;
-  
 
 --
 -- Constraints for table `t_ulasanbuku`
