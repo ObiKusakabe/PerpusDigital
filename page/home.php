@@ -54,12 +54,6 @@
         }
 
         // grafik pie
-        // $queryRating = "SELECT t_buku.judul, AVG(t_ulasanbuku.rating) AS avg_rating
-        //                 FROM t_ulasanbuku
-        //                 JOIN t_buku ON t_ulasanbuku.bukuID = t_buku.bukuID
-        //                 GROUP BY t_ulasanbuku.bukuID
-        //                 ORDER BY avg_rating DESC
-        //                 LIMIT 5";
         $queryBestCategory = "SELECT t_kategoribuku.namaKategori, COUNT(t_kategoribuku.kategoriID) AS best_cat 
                               FROM t_kategoribuku 
                               JOIN t_buku ON t_kategoribuku.kategoriID = t_buku.kategoriID 
@@ -67,17 +61,13 @@
                               ORDER BY best_cat DESC 
                               LIMIT 5;";
 
-        $resultRating = mysqli_query($koneksi, $queryBestCategory);
-        $labelsRating = [];
-        $dataRating = [];
+        $resultBestCat = mysqli_query($koneksi, $queryBestCategory);
+        $labelsBestCat = [];
+        $dataBestCat = [];
 
-        // while ($rowRating = mysqli_fetch_assoc($resultRating)) {
-        //     $labelsRating[] = $rowRating['judul'];
-        //     $dataRating[] = $rowRating['avg_rating'];
-        // }
-        while ($rowRating = mysqli_fetch_assoc($resultRating)) {
-            $labelsRating[] = $rowRating['namaKategori'];
-            $dataRating[] = $rowRating['best_cat'];
+        while ($rowBestCat = mysqli_fetch_assoc($resultBestCat)) {
+            $labelsBestCat[] = $rowBestCat['namaKategori'];
+            $dataBestCat[] = $rowBestCat['best_cat'];
         }
         
         $cekjmlantriuser = mysqli_query($koneksi, "SELECT * FROM t_peminjaman WHERE statusPeminjaman = 'antri'"); //card antri
@@ -330,10 +320,10 @@
     new Chart(ctxPie, {
         type: 'pie',//doughnut
         data: {
-            labels: <?php echo json_encode($labelsRating); ?>,
+            labels: <?php echo json_encode($labelsBestCat); ?>,
             datasets: [{
                 label: 'Jumlah Buku',
-                data: <?php echo json_encode($dataRating); ?>,
+                data: <?php echo json_encode($dataBestCat); ?>,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
