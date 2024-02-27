@@ -40,11 +40,11 @@
         // grafik batang
         // Mendapatkan data jumlah peminjaman untuk setiap buku
         $query = "SELECT t_buku.judul, COUNT(t_peminjaman.bukuID) AS qty
-                FROM t_peminjaman
-                JOIN t_buku ON t_peminjaman.bukuID = t_buku.bukuID
-                GROUP BY t_buku.bukuID
-                ORDER BY qty DESC
-                LIMIT 5"; // Ambil lima buku yang paling banyak dipinjam
+                  FROM t_peminjaman
+                  JOIN t_buku ON t_peminjaman.bukuID = t_buku.bukuID
+                  GROUP BY t_buku.bukuID
+                  ORDER BY qty DESC
+                  LIMIT 5"; // Ambil lima buku yang paling banyak dipinjam
         $result = mysqli_query($koneksi, $query);
         $labels = [];
         $data = [];
@@ -54,20 +54,30 @@
         }
 
         // grafik pie
-        $queryRating = "SELECT t_buku.judul, AVG(t_ulasanbuku.rating) AS avg_rating
-                        FROM t_ulasanbuku
-                        JOIN t_buku ON t_ulasanbuku.bukuID = t_buku.bukuID
-                        GROUP BY t_ulasanbuku.bukuID
-                        ORDER BY avg_rating DESC
-                        LIMIT 5";
+        // $queryRating = "SELECT t_buku.judul, AVG(t_ulasanbuku.rating) AS avg_rating
+        //                 FROM t_ulasanbuku
+        //                 JOIN t_buku ON t_ulasanbuku.bukuID = t_buku.bukuID
+        //                 GROUP BY t_ulasanbuku.bukuID
+        //                 ORDER BY avg_rating DESC
+        //                 LIMIT 5";
+        $queryBestCategory = "SELECT t_kategoribuku.namaKategori, COUNT(t_kategoribuku.kategoriID) AS best_cat 
+                              FROM t_kategoribuku 
+                              JOIN t_buku ON t_kategoribuku.kategoriID = t_buku.kategoriID 
+                              GROUP BY t_kategoribuku.kategoriID 
+                              ORDER BY best_cat DESC 
+                              LIMIT 5;";
 
-        $resultRating = mysqli_query($koneksi, $queryRating);
+        $resultRating = mysqli_query($koneksi, $queryBestCategory);
         $labelsRating = [];
         $dataRating = [];
 
+        // while ($rowRating = mysqli_fetch_assoc($resultRating)) {
+        //     $labelsRating[] = $rowRating['judul'];
+        //     $dataRating[] = $rowRating['avg_rating'];
+        // }
         while ($rowRating = mysqli_fetch_assoc($resultRating)) {
-            $labelsRating[] = $rowRating['judul'];
-            $dataRating[] = $rowRating['avg_rating'];
+            $labelsRating[] = $rowRating['namaKategori'];
+            $dataRating[] = $rowRating['best_cat'];
         }
         
         $cekjmlantriuser = mysqli_query($koneksi, "SELECT * FROM t_peminjaman WHERE statusPeminjaman = 'antri'"); //card antri
@@ -184,7 +194,7 @@
     <div class="col">
         <div class="card shadow" style="border: none">
             <div class="card-header">
-                <i class="fa-solid fa-chart-pie"></i> 5 Buku paling banyak diberi ulasan
+                <i class="fa-solid fa-chart-pie"></i> 5 Kategori yang paling bukunya
             </div>
             <div class="card-body">
                 <div class="chart-container" style="position: relative; height:40vh;">
@@ -318,11 +328,11 @@
     //grafik pie
     const ctxPie = document.getElementById('myPieChart');
     new Chart(ctxPie, {
-        type: 'pie',
+        type: 'pie',//doughnut
         data: {
             labels: <?php echo json_encode($labelsRating); ?>,
             datasets: [{
-                label: 'Rata-rata Rating',
+                label: 'Jumlah Buku',
                 data: <?php echo json_encode($dataRating); ?>,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
