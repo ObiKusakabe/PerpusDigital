@@ -1,5 +1,14 @@
     <h1 class="mt-4">Detail Buku </h1>
     <?php 
+    $id = $_GET['id'];
+
+    $jmlstok = mysqli_fetch_array(mysqli_query($koneksi, "SELECT stok FROM t_buku WHERE bukuID=$id"));
+    if ($jmlstok['stok'] > 0) {
+        $stoknotready = false;
+    } else {
+        $stoknotready = true;
+    }
+
     if ($_SESSION['user']['level'] != 'peminjam') {?>
         <div class="alert alert-info">
             Jabatan anda memiliki akses edit data buku.
@@ -27,6 +36,10 @@
                 <div class="alert alert-warning">
                     Anda telah mencapai batas jumlah buku yang dipinjam, jika Anda berkenan meminjam buku kembali, maka Anda perlu mengembalikan buku yang dipinjam.
                 </div>
+            <?php } else if ($stoknotready) { ?>
+                <div class="alert alert-warning">
+                    Stok buku habis, jika Anda berkenan meminjam buku ini, maka Anda perlu menunggu stok buku ini tersedia.
+                </div> 
             <?php } ?>
         <?php }?>
     <div class="card">
@@ -34,8 +47,6 @@
             <div class="row px-3">
                 <div class="col-md-2">
                     <?php 
-                        $id = $_GET['id'];
-                        
                         $query = mysqli_query($koneksi, "SELECT t_buku.*, t_kategoribuku.namaKategori FROM t_buku INNER JOIN t_kategoribuku ON t_buku.kategoriID = t_kategoribuku.kategoriID WHERE bukuID=$id");
                         $data = mysqli_fetch_array($query);
 
@@ -239,7 +250,7 @@
                                         $jmlqty2 = false;
                                     }
                                     ?>
-                                    <a href="?page=page/peminjaman/keranjang&action=add&id=<?php echo $data['bukuID'] ?>" class="btn btn-dark <?php if ($jmlqty2 || $antri || $dipinjam) {echo 'disabled';} ?> mb-3">
+                                    <a href="?page=page/peminjaman/keranjang&action=add&id=<?php echo $data['bukuID'] ?>" class="btn btn-dark <?php if ($stoknotready || $jmlqty2 || $antri || $dipinjam) {echo 'disabled';} ?> mb-3">
                                         <i class="bi bi-bag-plus"></i> Masukkan Keranjang
                                     </a>
                                 <?php } ?>
